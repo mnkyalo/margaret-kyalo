@@ -13,7 +13,7 @@ African aquatic ecosystems are underrepresented in science and even more so in A
 | Repository | Setting | What the agent must get right | Evaluation engineering |
 | :--- | :--- | :--- | :--- |
 | **[Naivasha Pesticides](https://github.com/mnkyalo/ai-eval-task-naivasha-pesticides)** | Lake Naivasha basin, Kenya · environmental chemistry | Recover dissolved concentrations of 19 organochlorine pesticides from two passive-sampler types: sampler memory under a falling concentration, in-situ calibration, uptake bound to dissolved organic matter | Seeded generator rebuilds data and answer key byte for byte · 57 graded values · honest methods 57/57, textbook answer 23/57 |
-| **[Congo Peat Pollen](https://github.com/mnkyalo/ai-eval-task-congo-peat)** | Cuvette Centrale, Congo Basin · palaeoecology | Radiocarbon chronology and pollen influx: hemispheric calibration curve, contaminated dates, spike-corrected influx, closed-sum artefacts | 82 checks · verifier re-derives the answer from sealed data · 7 wrong answers each fail in their own section |
+| **[Congo Peat Pollen](https://github.com/mnkyalo/ai-eval-task-congo-peat-pollen)** | Cuvette Centrale, Congo Basin · palaeoecology | Radiocarbon chronology and pollen influx: hemispheric calibration curve, contaminated dates, spike-corrected influx, closed-sum artefacts | 82 checks · verifier re-derives the answer from sealed data · 7 wrong answers each fail in their own section |
  
 Each task repo includes a **validation harness**. It runs the reference solution, honest alternative methods and plausible wrong answers through the real verifier, and **GitHub Actions CI** re-runs it on every push. Each repo also includes a candid design review of the task's weak points.
  
