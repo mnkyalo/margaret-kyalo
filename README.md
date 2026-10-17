@@ -1,5 +1,7 @@
 # Hi, I'm Margaret Kyalo-Omamo 👋
- 
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=xZrmmqwAAAAJ&hl=en)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--7864--0487-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0001-7864-0487)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/margaret-kyalo-n/)
 ### 🧪 Scientific AI Evaluation Designer · 🌍 Aquatic Ecologist & Molecular Biologist
  
 I design **research-grade evaluation tasks** that test whether AI agents can do real scientific computing: calibrate instruments, screen contaminated data, fit physical models and defend a quantitative answer. Each task is built from my own field and lab training in the lakes of the East African Rift. It is packaged with **Docker and the [Harbor](https://www.harborframework.com/docs/tasks) framework** and graded by a verifier with **measured tolerances**, proven against **plausible wrong answers**.
@@ -12,8 +14,8 @@ African aquatic ecosystems are underrepresented in science and even more so in A
  
 | Repository | Setting | What the agent must get right | Evaluation engineering |
 | :--- | :--- | :--- | :--- |
-| **[Naivasha Pesticides](https://github.com/mnkyalo/ai-eval-task-naivasha-pesticides)** | Lake Naivasha basin, Kenya · environmental chemistry | Recover dissolved concentrations of 19 organochlorine pesticides from two passive-sampler types: sampler memory under a falling concentration, in-situ calibration, uptake bound to dissolved organic matter | Seeded generator rebuilds data and answer key byte for byte · 57 graded values · honest methods 57/57, textbook answer 23/57 |
-| **[Congo Peat Pollen](https://github.com/mnkyalo/ai-eval-task-congo-peat-pollen)** | Cuvette Centrale, Congo Basin · palaeoecology | Radiocarbon chronology and pollen influx: hemispheric calibration curve, contaminated dates, spike-corrected influx, closed-sum artefacts | 82 checks · verifier re-derives the answer from sealed data · 7 wrong answers each fail in their own section |
+|  **[Naivasha Pesticides](https://github.com/mnkyalo/ai-eval-task-naivasha-pesticides)** [![DOI](https://zenodo.org/badge/1385132645.svg)](https://doi.org/10.5281/zenodo.23034695)  | Lake Naivasha basin, Kenya · environmental chemistry | Recover dissolved concentrations of 19 organochlorine pesticides from two passive-sampler types: sampler memory under a falling concentration, in-situ calibration, uptake bound to dissolved organic matter | Seeded generator rebuilds data and answer key byte for byte · 57 graded values · honest methods 57/57, textbook answer 23/57 |
+| **[Congo Peat Pollen](https://github.com/mnkyalo/ai-eval-task-congo-peat)** [![DOI](https://zenodo.org/badge/1385078063.svg)](https://doi.org/10.5281/zenodo.23034753) | Cuvette Centrale, Congo Basin · palaeoecology | Radiocarbon chronology and pollen influx: hemispheric calibration curve, contaminated dates, spike-corrected influx, closed-sum artefacts | 82 checks · verifier re-derives the answer from sealed data · 7 wrong answers each fail in their own section |
  
 Each task repo includes a **validation harness**. It runs the reference solution, honest alternative methods and plausible wrong answers through the real verifier, and **GitHub Actions CI** re-runs it on every push. Each repo also includes a candid design review of the task's weak points.
  
@@ -59,5 +61,8 @@ Each task repo includes a **validation harness**. It runs the reference solution
 ## 📬 Connect With Me
  
 * **Email:** [mnkyalo22@gmail.com](mailto:mnkyalo22@gmail.com)
+* **Google Scholar:** [Margaret Kyalo-Omamo](https://scholar.google.com/citations?user=xZrmmqwAAAAJ&hl=en)
+* **ORCID:** [0000-0001-7864-0487](https://orcid.org/0000-0001-7864-0487)
+* **LinkedIn:** [margaret-kyalo-n](https://www.linkedin.com/in/margaret-kyalo-n/)
 * **Location:** Kenya
  
