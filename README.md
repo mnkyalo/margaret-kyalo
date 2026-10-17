@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/margaret-kyalo-n/)
 ### 🧪 Scientific AI Evaluation Designer · 🌍 Aquatic Ecologist & Molecular Biologist
  
-I design **research-grade evaluation tasks** that test whether AI agents can do real scientific computing: calibrate instruments, screen contaminated data, fit physical models and defend a quantitative answer. Each task is built from my own field and lab training in the lakes of the East African Rift. It is packaged with **Docker and the [Harbor](https://www.harborframework.com/docs/tasks) framework** and graded by a verifier with **measured tolerances**, proven against **plausible wrong answers**.
+I design **research-grade evaluation tasks** that test whether AI agents can do real scientific computing: calibrate instruments, screen contaminated data, fit physical models and defend a quantitative answer. Each task is built from my own field and lab training in the lakes of the East African Rift. It is packaged with **[Docker] (https://www.docker.com/) and the [Harbor](https://www.harborframework.com/docs/tasks) framework** and graded by a verifier with **measured tolerances**, proven against **plausible wrong answers**.
  
 African aquatic ecosystems are underrepresented in science and even more so in AI benchmarks. I build tasks from the systems I know first hand, so models are tested on the science as it is actually practised there.
  
